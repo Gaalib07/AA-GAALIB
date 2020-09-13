@@ -1,0 +1,916 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;531;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&display=swap');
+*{margin:0;padding: 0;}
+body{font-size: 16px;
+font-family: 'Work Sans', sans-serif;
+font-size: 16px;}
+
+h1,h2,h3,h4,h5,h6{:'Oswald', sans-serif; font-weight: 500;}
+
+   .topar2{background:#f5f5f5;
+}
+.container{width: 1140px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+
+}
+
+
+
+.phone{width: 210px;   float: left;padding:15px 10px;}
+
+.email{width: 748px;   float: left;padding:15px 10px}
+
+.social{width: 142px;   float: left;}
+
+.toparwapper{overflow: hidden;}
+
+.social a{
+display: block;
+float: left;
+padding: 15px;
+color:#2b2b2b;
+border: 1px solid #ddd;
+background-color: blue;
+}
+
+.phone  i{color:#ff5200}
+.email  i{color:#ff5200}
+.social i:hover{color:#ff5200 ;translate: 0.3s;  }
+
+.name1{font-size: large;font-family: 'Heebo', sans-serif;background:#f5f5f5;
+color: rgb(235, 13, 13);font-weight: 600;}
+.name2{color: rgb(245, 183, 13)  ; font-family: 'Heebo', sans-serif;  background:#f5f5f5 ;font-weight: 600;}
+.menu{
+    width: 990px;   float: right;
+}
+
+ul.mainmenuitem{
+list-style: none;
+float: right;
+
+}
+
+ul.mainmenuitem li{float: left;}
+
+ul.mainmenuitem li  a{
+text-decoration: none;
+font-family:'Oswald', sans-serif;text-transform: uppercase;
+font-size:16px;
+display:block;
+padding:30px  15px;
+columns: #0e0e0e;
+font-weight:500px;
+transition: 1s;
+}
+
+ul.mainmenuitem li#ser  i{margin-top:5px}
+ul.mainmenuitem li  a:hover{color:#ff5200}
+
+#homeslider{ background: url(../pic/ok.jpg);background-repeat: no-repeat;   width:1400PX;height: 400PX;
+    background-position: 100%;padding: 0px;
+}
+
+.slidercontain{color:wheat}
+
+.slidercontain  h1{
+font-size: 50px;
+font-weight: 900;
+text-transform: uppercase;
+margin-bottom: 30px;
+margin-top: 120px;
+float: left;
+}
+
+
+
+.slidercontain  p {
+font-weight: 600;
+line-height: 25px;
+width: 490px;
+margin-bottom: 30px;
+}
+button#Button1{ background:
+    #ff5200;
+color:white;
+border:none;
+padding:15px 25px;
+font-size: 10px;
+font-weight: 600;
+border-radius: 3px;
+margin-bottom: 120px;
+}
+
+#Button1:hover{transform: scale(1.15);}
+
+.slidernav{
+width: 200px;
+margin: auto;
+}
+
+.slidernav span{
+width: 5px;
+height: 5px;
+background:transparent;
+border:4px solid    rgb(14, 236, 14);
+display: block;
+border-radius: 100%;cursor: ;
+padding:1px 1px;
+float: left;
+margin: 5px 5px;}
+
+.services{
+    background: #f5f6f6;
+}
+.sboxrapper{float:center;;
+overflow: hidden;}
+
+.singleox{
+width: 200px;
+background:white;
+padding: 15px;
+float: left;
+margin:20px;
+transition: 0.3s;
+
+}
+.singleox i{color:#fb5200}
+.sboxtitle{
+text-align: center;
+width: 150px;
+margin:auto
+}
+.sboxtitle  b{
+font-size: 20px;
+letter-spacing: -1.1px;
+color:#333;
+line-height: 20px;
+text-transform: uppercase;
+margin: 30px 0px;
+
+}
+
+.sboxdesc{text-align: center;
+font-size: 20px;
+}
+.sboxlink{
+    text-align: center;
+margin: 30px  0px;
+}
+.sboxicon{text-align: center;
+font-size: 40px;
+color:#fb5200;
+margin: 30px   0px;
+
+}
+.sboxlink a{
+text-decoration: none;
+color:#fb5200;
+font-weight: 500;
+}
+
+.services{
+margin: 100px   120PX;
+
+}
+.singleox:hover{
+    background: #fb5200;
+color:white;
+}
+.singleox:hover b,i{color: white;}
+.singleox:hover .sboxlink   a{
+color: white !important;
+}
+.singleox:hover .sboxicon i{color:white}
+
+
+
+
+.teamcontains {
+    overflow: hidden;
+}
+
+.teamimage {
+    width: 535px;
+    float: left;
+}
+
+
+.teamimage img{
+max-width: 100%; 
+
+}
+
+
+.teamdetails {
+    width: 535px;
+    float: right;
+}
+.titledesc h2{
+font-size: 40px;
+margin-bottom: 15px;
+
+}
+.titledesc  p   {columns: #666;
+line-height: 25px;
+margin-bottom: 10px;
+}
+.teamfacilities ul{
+margin:0;
+padding: 30px;
+list-style: none;
+width: 260;
+float:left ;
+}
+
+.teamfacilities ul li{
+line-height:40px;
+transition: .3s;
+
+}
+.teamfacilities ul li a{
+color:#333;
+text-decoration: none;
+font-weight: 500;
+}
+.teamfacilities{
+overflow: hidden;
+margin-bottom: 25px;
+}
+
+.teamfacilities ul li a i{
+font-size: 18px;
+color:#444
+}
+.teamcontactbutton  a{
+    background: #fb5200;
+    color:black;
+    padding: 15px   1px;
+text-decoration: none;
+font-weight: bold;
+font-size: 20px;
+display: block;
+width: 145px;
+text-align: center;
+border-radius: 3px;
+
+
+}
+.teamcontactbutton  a:hover{background: #fb5200;
+    color:white;}
+    .teamfacilities ul :hover a{color: #fb5200;}
+    .teamfacilities ul  :hover  i {color: #fb5200}
+
+#whychooseus{
+background: url(../pic/gaalib.jpg);
+font-size:x-large;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+.iconwapper{
+overflow: hidden;
+
+
+}
+.singleicones{
+width: 250px;
+text-align: center;
+color:white;
+float: left;
+}
+
+.sicone{
+font-size:30px;
+
+
+}
+.singleicones h2{
+font-size: 55px;
+font-weight: 900px;
+margin:10px 0px;
+font-family: arial black;
+}
+
+
+.sectitle{
+
+    text-align: center;
+margin-bottom: 50px;
+}
+
+.sectitle h2{
+font-size: 45px;
+margin-bottom: 10px;
+position: relative;
+}
+
+.sectitle h2:after {
+contain: ;
+position: absolute;
+bottom: 0px;
+background:#fb5200 ;
+width: 100px;
+
+}
+.sectitle p {
+
+    width: 550px;
+    margin:auto
+}
+#blogpost{
+background: #f5f6f5;
+
+}
+
+.postwrapper {
+overflow: hidden;
+
+
+}
+.singlepost{
+width: 215px;
+overflow: hidden;
+float: left;
+margin-right: 50px;
+}
+.singlepost img{
+width: 100%;
+height: 150px;
+}
+.post img {
+margin-bottom:15px;
+}
+.postinfo p{
+margin-top: 10px;
+color:black;
+line-height: 20px;
+}
+.postinfo h3{
+    width: 210%;
+}
+ 
+.singletable{
+width: 240px;;
+overflow: hidden;
+float: left;
+border:1px solid #eaeaea;
+padding: 30px;
+margin-right: 35px;
+
+}
+.tablelist{
+margin-left: 50px;
+display: table;
+}
+
+
+.singletable h3{
+font-size:25px;
+
+}
+.singletable h1{
+font-size: 40px;
+font-weight: 900px;
+font-family: arial black;
+margin: 8px 0px;
+
+}
+
+.singletable h1 span{
+ font-size:30px;
+margin-left:10px;
+font-weight: 700 !important;
+font-family:airal 
+}
+.singletable ul li{
+line-height: 35px;
+}
+
+
+button{
+background: #fb5200;
+color:white;
+border:none;
+padding:12px 25px;
+font-weight: 800;
+margin:20px 0px;
+border-radius: 3px;
+}
+button:hover{
+    color:white;
+    background: #333;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+.idealeftimg{
+
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.pic{width: 50%;
+    float: left;
+    height:455px ;
+    }
+
+
+section#ideas{
+overflow: hidden;
+position: 80px 0px;
+
+}
+.idealeftimg{
+width: 50%;
+float: left;
+
+}
+.rightcontant{
+width: 50%;
+float:right;
+overflow: hidden;
+background: #222222;
+color: white;
+
+}
+
+.rcontaintitle{
+padding: 50px;
+
+
+}
+
+.rcontaintitle h1{
+font-size: 35px;
+margin-bottom: 15px;
+text-align: center;
+}
+
+
+.rcontainicon{
+    padding: 0px 70px;
+padding-bottom: 0;
+margin-bottom: 35px;
+padding-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+.riconesingle{
+width: 400px;
+float: left;
+overflow: hidden;
+}
+
+.ricon{
+width: 70px;
+overflow: hidden;
+float: left;
+font-size: 48px;
+ 
+}
+
+.ricon i{color:#fb5200;}
+    
+
+.ricontitle h2{
+font-size: 20px;
+margin-bottom: 08px;
+transition: 0.5s;cursor: pointer;
+}
+
+.ricontitle{
+width: 310px;
+overflow: hidden;
+float:right;
+
+}
+
+
+.rcontaintitle p{
+text-align: center;
+
+}
+
+.ricontitle h2:hover{
+color: #fb5200;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.teampersons{
+overflow: hidden;
+
+
+}
+.singleperson{
+width: 230px;
+overflow: hidden;
+float: left;
+margin-right: 45px;
+}
+
+.singleperson:last-child{
+margin-right: 0px;
+
+
+}
+.singleperson img{
+width: 100%;
+height: 280px;
+
+}
+
+.personinfon p{
+   
+ 
+    font-size: 18px;
+}
+
+.personinfo h3{
+font-size: 25px;
+
+}
+.personinfo {   text-align: center;
+    padding: 15px;
+    border-left: 1px solid #ddd;
+border-right: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+    }
+    
+.jointeambutton{
+    text-align: center;
+}
+.jointeambutton{
+text-align:center;
+
+}
+
+
+
+
+
+
+
+
+
+#project{
+background: #f5f6f6;
+
+}
+.projectwrapper{
+overflow: hidden;
+column-count: 3;
+
+}
+.singleproject{
+width: 350px;
+float: left;
+margin-right: 30px;
+position: relative;
+margin-bottom: 30px;
+overflow: hidden;
+
+}
+.singleproject:last-child{
+    margin-right: 0px;
+
+}
+
+.singleproject img{
+    width: 100%;
+}
+.projectinfo{
+position:absolute;
+bottom: 0;
+left:0;
+width: 100%;
+padding: 40px 30px;
+background:linear-gradient(to top,black,transparent 150px);
+color:white;
+
+padding-bottom: 0px;
+transition: 0.3s;
+
+}
+
+.projectmeta{
+width:280px;
+margin-bottom: 15px;
+
+}
+
+.projectmeta a{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+
+a#learnmorebtn{
+    display:block;
+    color: white;
+    width: 500;
+    font-size: 16px;
+    visibility: hidden;
+transition-delay: 0.3s;
+transform:translatex(-155px);
+transition: 0.3s;
+transition-timing-function: cubic-bezier(0, 0.43, 1.09);
+}
+a#learnmorebtn i{
+    font-size: 12px;
+    margin-left: 15px;
+    text-decoration:none !important;
+}
+.singleproject:hover .projectinfo{
+    padding: 40px 30px  !important;
+
+
+
+}
+
+.singleproject:hover a#learnmorebtn{
+    visibility:visible;
+    transform:translatex(0px) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newswrapper{
+overflow:hidden;
+
+
+}
+.singlenews{
+width: 350px;
+
+margin-right: 30px;
+float: left;
+overflow: hidden;
+margin-bottom: 30px;
+}
+
+.singlenews :last-child{
+    margin-right: 0px !important;
+}
+.newsimg img{
+    width: 100%;
+}
+.newsmeta{
+padding: 30px;
+border-left: 1px solid #ddd;
+border-right: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+}
+
+.newscatagory{
+margin-bottom: 20px;
+overflow: hidden;
+}
+.newscatagory a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #444;
+    display: block;
+    width: 120px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    background: #1a1a1a;
+    padding-top:100px;
+   
+}
+
+
+.copyrightcontainer{
+    overflow: hidden;
+    color:#999;
+    border-top:1px solid #333;
+;
+}
+.copyrighttext{
+width: 570px;
+float: left;
+padding:15px;
+}
+
+.copyrightcontainer .container{
+    overflow: hidden;
+}
+.copyrightmenu{
+width: 540px;
+float: right;
+
+}
+.copyrightmenu ul{
+list-style: none;
+float: right;
+overflow: hidden;
+
+
+
+}
+
+.copyrightmenu ul li{
+    float: left;
+}
+.copyrightmenu ul li a{
+color: #999;
+display: block;
+padding:15px;
+text-decoration: none;
+}
+
+.fboxwrapper{
+overflow: hidden;
+margin-bottom: 35px;
+
+}
+.fbox{
+overflow: hidden;
+width: 250px;
+float: left;
+margin-right: 30px;
+color: #999;
+}
+.fbox :last-child{
+margin-right: 0px;
+
+}
+.fbox h3{
+    color:white;
+margin-bottom:20px;
+
+
+}
+.fbox p{
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom:20px;
+}
+
+span#contacts{
+display: block;
+margin-bottom: 15px;
+font-size: 16px;
+
+}
+span#contacts i{
+color:#fb5200;
+margin-right: 10px;
+}
+
+.uflinks{
+list-style: none;
+
+
+}
+
+.uflinks li{
+line-height: 25px;
+
+}
+
+ul#uflinks li a{
+color:#999;
+text-decoration:none;
+display: block;
+padding: 7px 0px;
+border-bottom: 1px dashed #353535
+
+}
+ul#uflinks li:last-child a {
+border-bottom: 0px;
+
+}
+.frpost{
+overflow: hidden;
+margin-bottom: 20px;
+
+}
+.frpostmeta{
+width: 70px;
+background: #313131;
+padding: 8px;
+border-radius:3px;
+color:white;
+float: left;
+}
+
+.frposttitle{
+width: 150px;
+float: right;
+
+
+}
+.frposttitle h3{
+    margin: 0;
+margin-bottom: 10px;
+font-size: 12px;
+}
+.frposttitle a{
+color:#999;
+text-decoration: none;
+font-size:14px;
+margin-right: 10px;
+
+}
+
+.frpostmeta span:first-child{
+
+    font-weight: 800;
+    font-size: 23px;
+}
+
+.frpostmeta{
+    text-align: center;
+}
+
+.ficons a{
+    display: block;
+    width: 20px;
+    background: #666;
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    float:left;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.ficons a:hover{
+    background: #fb5200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
